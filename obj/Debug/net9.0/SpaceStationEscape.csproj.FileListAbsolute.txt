@@ -1,0 +1,14 @@
+C:\Users\morga\Space Station Escape\obj\Debug\net9.0\SpaceStationEscape.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\morga\Space Station Escape\obj\Debug\net9.0\SpaceStationEscape.csproj.CoreCompileInputs.cache
+C:\Users\morga\Space Station Escape\bin\Debug\net9.0\SpaceStationEscape.exe
+C:\Users\morga\Space Station Escape\bin\Debug\net9.0\SpaceStationEscape.deps.json
+C:\Users\morga\Space Station Escape\bin\Debug\net9.0\SpaceStationEscape.runtimeconfig.json
+C:\Users\morga\Space Station Escape\bin\Debug\net9.0\SpaceStationEscape.dll
+C:\Users\morga\Space Station Escape\bin\Debug\net9.0\SpaceStationEscape.pdb
+C:\Users\morga\Space Station Escape\obj\Debug\net9.0\SpaceStationEscape.AssemblyInfoInputs.cache
+C:\Users\morga\Space Station Escape\obj\Debug\net9.0\SpaceStationEscape.AssemblyInfo.cs
+C:\Users\morga\Space Station Escape\obj\Debug\net9.0\SpaceStationEscape.dll
+C:\Users\morga\Space Station Escape\obj\Debug\net9.0\refint\SpaceStationEscape.dll
+C:\Users\morga\Space Station Escape\obj\Debug\net9.0\SpaceStationEscape.pdb
+C:\Users\morga\Space Station Escape\obj\Debug\net9.0\SpaceStationEscape.genruntimeconfig.cache
+C:\Users\morga\Space Station Escape\obj\Debug\net9.0\ref\SpaceStationEscape.dll
