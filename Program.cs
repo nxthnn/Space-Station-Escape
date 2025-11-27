@@ -49,13 +49,13 @@ namespace SpaceStationEscape
             // Adds puzzle to ultimate room
             var reactorPuzzle = new PuzzleChallenge(
                 "Reactor Code Cipher",
-                "A glowing panel asks: 'Decrypt the stabilisation code (hint: 108 divided by 12)'",
-                "9"
+                "A glowing panel asks: 'Decrypt the stabilisation code (8 ÷ 2(2+2))'",
+                "16"
             );
             // Adds enemy to ultimate room
             var reactorBeast = new EnemyChallenge(
                 "Mutated Reactor Beast",
-                new Enemy("Reactor Beast", 40, attackPower: 8),
+                new Enemy("Reactor Beast", 80, attackPower: 10),
                 player
             );
 
