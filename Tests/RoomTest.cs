@@ -7,7 +7,7 @@ namespace SpaceStationEscape.Tests
     // Simple fake challenge for testing purposes
     public class FakeChallenge : IChallenge
     {
-        public string Description { get; set; } = "Fake";
+        public string Description { get; set; } = "Fake"; 
         public bool IsCompleted { get; set; }
 
         public void Attempt()
@@ -19,7 +19,7 @@ namespace SpaceStationEscape.Tests
     public class RoomTests
     {
         [Fact]
-        public void Room_IsNotCompleted_WhenAnyChallengeIncomplete()
+        public void Room_IsNotCompleted_WhenAnyChallengeIncomplete() // Test for Room.IsCompleted property
         {
             // Arrange
             var room = new Room("Test Room", "Description");

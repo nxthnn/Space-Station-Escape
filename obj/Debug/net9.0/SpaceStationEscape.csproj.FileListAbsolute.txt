@@ -12,3 +12,4 @@ C:\Users\morga\Space Station Escape\obj\Debug\net9.0\refint\SpaceStationEscape.d
 C:\Users\morga\Space Station Escape\obj\Debug\net9.0\SpaceStationEscape.pdb
 C:\Users\morga\Space Station Escape\obj\Debug\net9.0\SpaceStationEscape.genruntimeconfig.cache
 C:\Users\morga\Space Station Escape\obj\Debug\net9.0\ref\SpaceStationEscape.dll
+C:\Users\morga\Space Station Escape\obj\Debug\net9.0\SpaceStationEscape.sourcelink.json

@@ -103,3 +103,4 @@ C:\Users\morga\Space Station Escape\Tests\obj\Debug\net9.0\refint\Tests.dll
 C:\Users\morga\Space Station Escape\Tests\obj\Debug\net9.0\Tests.pdb
 C:\Users\morga\Space Station Escape\Tests\obj\Debug\net9.0\Tests.genruntimeconfig.cache
 C:\Users\morga\Space Station Escape\Tests\obj\Debug\net9.0\ref\Tests.dll
+C:\Users\morga\Space Station Escape\Tests\obj\Debug\net9.0\Tests.sourcelink.json

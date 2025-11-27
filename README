@@ -1,0 +1,15 @@
+Space Station Escape
+
+In this game you will have to complete challenges as well as fight enemies, what more could you want. The theme is space based and will see you trying to save the space station from the failing reactor and escape.
+
+Run commands
+
+dotnet build
+dotnet run
+
+Test command
+
+dotnet test Tests\Tests.csproj
+
+
+The playing of the game is all done in the terminal as well as any discriptions needed.
