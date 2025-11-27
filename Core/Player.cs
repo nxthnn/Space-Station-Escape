@@ -6,6 +6,8 @@ namespace SpaceStationEscape.Core
 
         public int Health { get; private set; } = 100; // Player health
         public int AttackPower { get; } = 10; // Player attack power
+        public int LightAttackPower { get; } = 5; // Player light attack power
+        public int HeavyAttackPower { get; } = 20; // Player heavy attack power
 
         public Player(string name) // Constructor to initialize the player
         {

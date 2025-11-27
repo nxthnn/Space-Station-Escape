@@ -55,7 +55,7 @@ namespace SpaceStationEscape
             // Adds enemy to ultimate room
             var reactorBeast = new EnemyChallenge(
                 "Mutated Reactor Beast",
-                new Enemy("Reactor Beast", 80, attackPower: 10),
+                new Enemy("Reactor Beast", 100, attackPower: 10),
                 player
             );
 
@@ -65,10 +65,10 @@ namespace SpaceStationEscape
             corridor.AddChallenge(corridorEnemyChallenge);
 
             // Connect rooms
-            airlock.AddExit("north", corridor);
-            corridor.AddExit("south", airlock);
-            corridor.AddExit("east", reactorCore);
-            reactorCore.AddExit("west", corridor);
+            airlock.AddExit("corridor", corridor);
+            corridor.AddExit("airlock", airlock);
+            corridor.AddExit("reactorCore", reactorCore);
+            reactorCore.AddExit("corridor", corridor);
 
             // Start game in the airlock
             var context = new GameContext(player, airlock);
@@ -104,7 +104,7 @@ namespace SpaceStationEscape
                 var input = Console.ReadLine(); // Read player input
                 if (string.IsNullOrWhiteSpace(input)) // Handle empty input
                 {
-                    Console.WriteLine("Please type a command (e.g. 'move north' or 'quit')."); // Prompt for command
+                    Console.WriteLine("Please type a command (e.g. 'move corridor' or 'quit')."); // Prompt for command
                     continue;
                 }
 

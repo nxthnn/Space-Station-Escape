@@ -38,7 +38,7 @@ public EnemyChallenge(string description, Enemy enemy, Player player)
 
     Console.WriteLine($"{Description}"); //shows description of enemy challenge
     Console.WriteLine($"{_enemy.Name} has {_enemy.Health} HP. You have {_player.Health} HP."); //shows health of enemy and player
-    Console.WriteLine("Choose an action: attack / dodge / block"); //player options when attacking
+    Console.WriteLine("Choose an action: light attack / attack / heavy attack / dodge / block"); //player options when attacking
     Console.Write("> ");
     var action = Console.ReadLine()?.Trim().ToLowerInvariant(); //reads player input
 
@@ -64,6 +64,36 @@ public EnemyChallenge(string description, Enemy enemy, Player player)
             Console.WriteLine("You swing and miss!"); //if player misses
         }
     }
+    else if (action == "light attack")
+    {
+        const double lightAttackHitChance = 1; // 100% chance to hit
+        const int lightAttackDamage = 5; // light attack damage
+
+        if (_rng.NextDouble() < lightAttackHitChance) //checks if player hits enemy
+        {
+            _enemy.TakeDamage(lightAttackDamage);
+            Console.WriteLine($"You perform a light attack on {_enemy.Name} for {lightAttackDamage} damage!"); //if player hits enemy this calculates damage
+        }
+        else
+        {
+            Console.WriteLine("Your light attack misses!"); //if player misses
+        }
+    }
+    else if (action == "heavy attack")
+    {
+        const double heavyAttackHitChance = 0.5; // 50% chance to hit
+        const int heavyAttackDamage = 20; // heavy attack damage
+
+        if (_rng.NextDouble() < heavyAttackHitChance) //checks if player hits enemy
+        {
+            _enemy.TakeDamage(heavyAttackDamage);
+            Console.WriteLine($"You perform a heavy attack on {_enemy.Name} for {heavyAttackDamage} damage!"); //if player hits enemy this calculates damage
+        }
+        else
+        {
+            Console.WriteLine("Your heavy attack misses!"); //if player misses
+        }
+    }   
     else if (action == "dodge")
     {
         Console.WriteLine("You prepare to dodge the next attack..."); //dodging option
