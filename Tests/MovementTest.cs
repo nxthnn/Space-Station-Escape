@@ -13,10 +13,10 @@ namespace SpaceStationEscape.Tests
             var room1 = new Room("Room 1", "First Room");
             var room2 = new Room("Room 2", "Second Room");
 
-            room1.AddExit("north", room2);
+            room1.AddExit("corridor", room2);
 
             // Act
-            var exit = room1.GetExit("north");
+            var exit = room1.GetExit("corridor");
 
             // Assert
             Assert.NotNull(exit);
@@ -30,7 +30,7 @@ namespace SpaceStationEscape.Tests
             var room1 = new Room("Room 1", "First Room");
 
             // Act
-            var exit = room1.GetExit("north");
+            var exit = room1.GetExit("corridor");
 
             // Assert
             Assert.Null(exit);
