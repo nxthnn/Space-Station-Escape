@@ -33,7 +33,7 @@ namespace SpaceStationEscape
             // Adds puzzle to skill room
             var airlockPuzzle = new PuzzleChallenge(
                 "Airlock keypad",
-                "A flickering keypad asks: 'Enter the emergency override code (hint: Modual Number)'",
+                "A flickering keypad asks: 'Enter the emergency override code (hint: Module Number)'",
                 "2115"
             );
             airlock.AddChallenge(airlockPuzzle);
