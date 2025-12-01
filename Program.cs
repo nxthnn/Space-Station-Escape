@@ -97,7 +97,7 @@ namespace SpaceStationEscape
             while (context.IsRunning) // Main game loop
             {
                 context.CurrentRoom.Show();
-                Console.WriteLine("Commands: move <direction>, solve, attack, help, quit"); // Display available commands
+                Console.WriteLine("Commands: move <location>, solve, attack, help, quit"); // Display available commands
                 Console.WriteLine();
 
                 Console.Write("> ");

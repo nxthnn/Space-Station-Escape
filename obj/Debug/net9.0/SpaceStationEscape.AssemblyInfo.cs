@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpaceStationEscape")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ac75e1a5b94ac84301e7bb9fde06e03ea04528e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba4fd176e9d64088d938252eff141e08d9bbe2e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpaceStationEscape")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpaceStationEscape")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

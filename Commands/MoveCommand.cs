@@ -7,13 +7,13 @@ namespace SpaceStationEscape.Commands
     public class MoveCommand : ICommand // Command to move between rooms
     {
         public string Name => "move"; // Command name
-        public string Description => "Move to another room. Usage: move <direction>"; // Command description
+        public string Description => "Move to another room. Usage: move <location>"; // Command description
 
         public void Execute(string[] args, GameContext context) // Execute method
         {
             if (args.Length < 1)
             {
-                Console.WriteLine("Move where? Usage: move <direction>"); // Prompt for direction if not provided
+                Console.WriteLine("Move where? Usage: move <location>"); // Prompt for direction if not provided
                 return;
             }
 
@@ -34,12 +34,12 @@ namespace SpaceStationEscape.Commands
                 return;
             }
 
-            var direction = args[0]; // Get the direction to move
-            var nextRoom = currentRoom.GetExit(direction); // Get the next room in that direction
+            var location = args[0]; // Get the location to move
+            var nextRoom = currentRoom.GetExit(location); // Get the next room in that location
 
             if (nextRoom == null)
             {
-                Console.WriteLine($"You can't go '{direction}' from here."); // Inform player that the direction is invalid
+                Console.WriteLine($"You can't go '{location}' from here."); // Inform player that the location is invalid
             }
             else
             {
